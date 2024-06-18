@@ -33,8 +33,60 @@
   </head>
   <body>
     <div class="page">
-      Testando .........
-      <header class="header"></header>
+      <header class="header">
+        <nav class="nav">
+          <img
+            src="./images/logo_coffeeshop_dark.svg"
+            alt="Logotipo do Coffeeshop"
+            class="nav__logo"
+          />
+          <!-- Colocar links de navegação em uma lista é supostamente a melhor prática para escrever o código semântico, pois permite que os leitores de tela façam uma pausa entre cada link em vez de ler todos os links como uma frase. -->
+          <ul class="nav__links">
+            <li>
+              <a class="nav__link" href="#">Receitas</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#">Reservar uma mesa </a>
+            </li>
+            <li>
+              <a class="nav__link" href="#">Contatos</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="header__content">
+          <div>
+            <h1 class="header__title">
+              Café especial na biblioteca Triple Peaks
+            </h1>
+            <p class="header__description">
+              Esta é nossa zona de estudo! Temos aquele cafezinho para energizar
+              você e vibrações aconchegantes para soltar a criatividade.
+            </p>
+          </div>
+
+          <img
+            src="./images/inside_coffee_shop.png"
+            alt="Ilustração 'Dentro do Coffeeshop"
+            class="header__image"
+          />
+        </div>
+        <div class="header__footer">
+          <div class="header__column_hours">
+            <p class="header__column-heading">Horários:</p>
+            <ul class="header__list">
+              <li class="header__list-item">Segunda a sexta (10:00 – 19:00)</li>
+              <li class="header__list-item">
+                Sábado a domingo (11:00 - 18:00)
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="header__address">
+          200 Success Avenue, a cidade de Triple Peaks
+        </p>
+      </header>
+
       <main class="content">
         <section class="recipes"></section>
         <section class="reservation"></section>
