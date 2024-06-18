@@ -17,33 +17,39 @@
   padding: 30px 80px 40px;
   position: relative;
   box-sizing: border-box;
+  background-image: url(../images/background_header.svg);
 }
 
 .nav {
   /* Adicione as propriedades flex aqui */
   display: flex;
   justify-content: space-between;
+  margin-top: 30px;
 }
 
 .nav__logo {
-  width: 58px;
-  height: 80px;
+  width: 105px;
+  height: 39px;
+  margin-left: 30px;
 }
 
 .nav__links {
-  /* Redefina o estilo de listas padrão aqui */
-  margin: 8px 0 0;
   display: flex;
   column-gap: 20px;
   list-style-type: none;
   padding: 0;
+  margin-right: 80px;
   align-items: center;
 }
 
 .nav__link {
   color: #000000;
   text-decoration: none;
-  font-weight: bold;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .header__content {
@@ -52,24 +58,44 @@
   justify-content: space-between;
 }
 
+.span-accent {
+  font-family: "Noto Serif";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 58px;
+  line-height: 72px;
+  color: #2f80ed;
+}
+
 .header__title {
-  max-width: 635px;
-  margin-top: 128px;
+  max-width: 709px;
+  margin-top: 183px;
   margin-bottom: 0;
-  font-size: 62px;
-  line-height: 76px;
+  margin-left: 80px;
   font-weight: 500;
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 58px;
+  line-height: 72px;
+  letter-spacing: 1px;
 }
 
 .header__description {
-  max-width: 515px;
-  margin-top: 32px;
+  max-width: 683px;
+  margin-top: 28px;
+  margin-left: 80px;
   font-size: 20px;
   line-height: 30px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
 }
 
 .header__image {
-  max-width: 636px;
+  width: 646px;
+  height: 568px;
+  margin-right: 5px;
+  /* max-width: 636px; */
 }
 
 .header__footer {
@@ -77,43 +103,36 @@
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-between;
   box-sizing: border-box;
-}
-
-/*
-.header__link {
-  color: #2f80ed;
-  text-decoration: none;
-} */
-
-.header__footer {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-end;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
   color: #838383;
+  margin-bottom: 40px;
 }
 
 .header__column_hours {
   flex-direction: column;
 }
 
-.header__column-heading {
+/* .header__column-heading {
   padding: 0;
-}
+} */
 
 .header__list {
   list-style-type: none;
   padding: 0;
+  margin-left: 80px;
 }
 
 .header__list-item {
 }
 
 .header__address {
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-start;
   margin: 0;
   color: #838383;
+  margin-right: 80px;
 }
