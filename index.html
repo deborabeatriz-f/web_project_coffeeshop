@@ -40,7 +40,6 @@
             alt="Logotipo do Coffeeshop"
             class="nav__logo"
           />
-          <!-- Colocar links de navegação em uma lista é supostamente a melhor prática para escrever o código semântico, pois permite que os leitores de tela façam uma pausa entre cada link em vez de ler todos os links como uma frase. -->
           <ul class="nav__links">
             <li>
               <a class="nav__link" href="#">Receitas</a>
@@ -76,6 +75,9 @@
         <div class="header__footer">
           <div class="header__column_hours">
             <!-- <p class="header__column-heading">Horários:</p> -->
+
+            <!-- DEVO ESCREVER TODOS ESTES <li> COMO <p>???  página 04 Roteiro, item 9-10. -->
+            <!-- <li class="header__list-item"> ESTÃO TODOS CENTRALIZADOS, PRECISO COLOCAR ELES PARA A LATERAL ESQUERDA -->
             <ul class="header__list">
               <li class="header__list-item">Horários:</li>
               <li class="header__list-item">Segunda a sexta (10:00 – 19:00)</li>
@@ -84,6 +86,8 @@
               </li>
             </ul>
           </div>
+
+          <!-- ALINHAR COM O ÚLTIMO <li class="header__list-item"> -->
           <p class="header__address">
             200 Success Avenue, a cidade de Triple Peaks
           </p>
@@ -91,7 +95,11 @@
       </header>
 
       <main class="content">
-        <section class="recipes"></section>
+        <section class="recipes">
+          
+        </section>
+
+
         <section class="reservation"></section>
       </main>
       <footer class="footer"></footer>
