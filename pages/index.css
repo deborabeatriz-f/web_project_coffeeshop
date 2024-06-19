@@ -53,11 +53,6 @@
   margin-left: 20px;
 }
 
-.header__content {
-  display: flex;
-  justify-content: space-between;
-}
-
 .span-accent {
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
@@ -76,6 +71,8 @@
   line-height: 72px;
   letter-spacing: 1px;
   text-align: left;
+  margin-top: 183px;
+  margin-bottom: 0;
 }
 
 .header__description {
@@ -110,18 +107,8 @@
   color: #6f6f6f;
 }
 
-.header__column_hours {
-  flex-direction: column;
-}
-
-/* .header__column-heading {} ??? */
-
-.header__list {
-  list-style-type: none;
-  padding: 0;
-}
-
-.header__list-item {
+.header__paragraph {
+  margin: 0;
   text-align: left;
 }
 
