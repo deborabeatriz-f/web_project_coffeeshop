@@ -125,21 +125,21 @@
 
           <!-- Precisa centralizar o <form> -->
           <form class="reservation__form">
-            <fieldset class="fieldset">
-              <label for="name" class="fieldset__label">
+            <fieldset class="form__container">
+              <label for="name" class="form__label">
                 <!-- O texto da <span> deveria estar localizado a esquerda do <form> -->
-                <span class="fieldset_label fieldset__label-text">Nome *</span>
+                <span class="form_label form__label-text">Nome *</span>
                 <input
                   type="text"
                   placeholder="Nome"
-                  class="fieldset__input fieldset__input_name"
+                  class="form__input form__input_name"
                   id="name"
                 />
               </label>
               <br />
 
-              <label for="number_of_guests" class="fieldset__label">
-                <span class="fieldset__label fieldset__label-text"
+              <label for="number_of_guests" class="form__label">
+                <span class="form__label form__label-text"
                   >Número de convidados *</span
                 >
                 <input
@@ -147,51 +147,47 @@
                   min="1"
                   max="8"
                   placeholder="1-8"
-                  class="fieldset__input fieldset__input_number_of_guests"
+                  class="form__input form__input_number_of_guests"
                   id="number_of_guests"
                 />
               </label>
               <br />
 
-              <label for="date" class="fieldset__label">
-                <span class="fieldset__label fieldset__label-text"
-                  >Data e hora *</span
-                >
+              <label for="date" class="form__label">
+                <span class="form__label form__label-text">Data e hora *</span>
                 <input
                   type="datetime-local"
-                  class="fieldset__input fieldset__input_date"
+                  class="form__input form__input_date"
                   id="date"
                 />
               </label>
               <br />
 
-              <label for="email" class="fieldset__label">
-                <span class="fieldset__label fieldset__label-text"
-                  >Seu e-mail *</span
-                >
+              <label for="email" class="form__label">
+                <span class="form__label form__label-text">Seu e-mail *</span>
                 <input
                   type="email"
                   placeholder="email@email.com"
-                  class="fieldset__input fieldset__input_email"
+                  class="form__input form__input_email"
                   id="email"
                 />
               </label>
               <br />
 
-              <button type="submit" class="fieldset__button">
+              <button type="submit" class="form__button">
                 Reservar uma mesa
               </button>
               <br />
 
-              <label for="terms_of_use" class="fieldset__label">
+              <label for="terms_of_use" class="form__label">
                 <input
                   type="checkbox"
-                  class="fieldset__input fieldset__input_terms_of_use"
+                  class="form__input form__input_terms_of_use"
                   id="terms_of_use"
                 />
-                <!-- Devo adicionar mais uma classe ao <span class="fieldset__label-text"> ?-->
+                <!-- Devo adicionar mais uma classe ao <span class="form__label-text"> ?-->
                 <!-- Ou devo adicionar mais um tag <span> aqui? -->
-                <span class="fieldset__label fieldset__label-text"
+                <span class="form__label form__label-text"
                   >Eu concordo com os termos de uso</span
                 >
               </label>

@@ -207,7 +207,7 @@
   padding-bottom: 120px;
 }
 
-.fieldset__label {
+.form__label {
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -217,11 +217,11 @@
   margin-bottom: 120px;
 }
 
-.fieldset__label-text {
+.form__label-text {
   margin-bottom: 8px;
 }
 
-.fieldset__input {
+.form__input {
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -235,7 +235,7 @@
   padding-bottom: 32px;
 }
 
-.fieldset__button {
+.form__button {
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -252,11 +252,11 @@
   width: 100%;
 }
 
-.fieldset__button:hover {
+.form__button:hover {
   opacity: 0.7;
 }
 
-.fieldset__input[type="checkbox"] {
+.form__input[type="checkbox"] {
   border-radius: 2px;
   height: 20px;
   width: 20px;
@@ -264,17 +264,17 @@
 
 /*
 
-.fieldset__input_name {
+.form__input_name {
 }
 
-.fieldset__input_number_of_guests {
+.form__input_number_of_guests {
 }
 
-.fieldset__input_date {
+.form__input_date {
 }
 
-.fieldset__input_email {
+.form__input_email {
 }
 
-.fieldset__input_terms_of_use {
+.form__input_terms_of_use {
 } */
