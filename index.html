@@ -121,13 +121,13 @@
         </section>
 
         <section class="reservation" id="reservation">
-          <h2 class="reservation__tittle">Reservar uma mesa</h2>
+          <h2 class="reservation__title">Reservar uma mesa</h2>
 
           <!-- Precisa centralizar o <form> -->
           <form class="reservation__form">
             <fieldset class="form__fieldset">
               <label for="" class="form__label">
-                <span class="form__label-text">Nome *</span>
+                <span class="form__label form__label-text">Nome *</span>
                 <input
                   type="text"
                   placeholder="Nome"
@@ -137,7 +137,9 @@
               <br />
 
               <label for="" class="form__label">
-                <span class="form__label-text">Número de convidados *</span>
+                <span class="form__label form__label-text"
+                  >Número de convidados *</span
+                >
                 <input
                   type="number"
                   min="1"
@@ -150,7 +152,7 @@
               <br />
 
               <label for="" class="form__label">
-                <span class="form__label-text">Data e hora *</span>
+                <span class="form__label form__label-text">Data e hora *</span>
                 <input
                   type="datetime-local"
                   class="form__input form__input_date"
@@ -159,7 +161,7 @@
               <br />
 
               <label for="" class="form__label">
-                <span class="form__label-text">Seu e-mail *</span>
+                <span class="form__label form__label-text">Seu e-mail *</span>
                 <input
                   type="email"
                   placeholder="email@email.com"
@@ -180,7 +182,7 @@
                 />
                 <!-- Devo adicionar mais uma classe ao <span class="form__label-text"> ?-->
                 <!-- Ou devo adicionar mais um tag <span> aqui? -->
-                <span class="form__label-text"
+                <span class="form__label form__label-text"
                   >Eu concordo com os termos de uso</span
                 >
               </label>
