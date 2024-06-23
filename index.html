@@ -126,18 +126,19 @@
           <!-- Precisa centralizar o <form> -->
           <form class="reservation__form">
             <fieldset class="form__fieldset">
-              <label for="" class="form__label">
+              <label for="name" class="form__label">
                 <!-- O texto da <span> deveria estar localizado a esquerda do <form> -->
                 <span class="form__label form__label-text">Nome *</span>
                 <input
                   type="text"
                   placeholder="Nome"
                   class="form__input form__input_name"
+                  id="name"
                 />
               </label>
               <br />
 
-              <label for="" class="form__label">
+              <label for="number_of_guests" class="form__label">
                 <span class="form__label form__label-text"
                   >Número de convidados *</span
                 >
@@ -147,25 +148,28 @@
                   max="8"
                   placeholder="1-8"
                   class="form__input form__input_number_of_guests"
+                  id="number_of_guests"
                 />
               </label>
               <br />
 
-              <label for="" class="form__label">
+              <label for="date" class="form__label">
                 <span class="form__label form__label-text">Data e hora *</span>
                 <input
                   type="datetime-local"
                   class="form__input form__input_date"
+                  id="date"
                 />
               </label>
               <br />
 
-              <label for="" class="form__label">
+              <label for="email" class="form__label">
                 <span class="form__label form__label-text">Seu e-mail *</span>
                 <input
                   type="email"
                   placeholder="email@email.com"
                   class="form__input form__input_email"
+                  id="email"
                 />
               </label>
               <br />
@@ -175,10 +179,11 @@
               </button>
               <br />
 
-              <label for="" class="form__label">
+              <label for="terms_of_use" class="form__label">
                 <input
                   type="checkbox"
                   class="form__input form__input_terms_of_use"
+                  id="terms_of_use"
                 />
                 <!-- Devo adicionar mais uma classe ao <span class="form__label-text"> ?-->
                 <!-- Ou devo adicionar mais um tag <span> aqui? -->
