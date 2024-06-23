@@ -196,7 +196,9 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  margin: 100px 0 80px;
+  padding-top: 100px;
+  margin: 0 auto;
+  margin-bottom: 80px;
 }
 
 .reservation__form {
@@ -205,10 +207,7 @@
   padding-bottom: 120px;
 }
 
-.form__fieldset {
-}
-
-.form__label {
+.fieldset__label {
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -218,11 +217,11 @@
   margin-bottom: 120px;
 }
 
-.form__label-text {
+.fieldset__label-text {
   margin-bottom: 8px;
 }
 
-.form__input {
+.fieldset__input {
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -236,7 +235,7 @@
   padding-bottom: 32px;
 }
 
-.form__button {
+.fieldset__button {
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -253,11 +252,11 @@
   width: 100%;
 }
 
-.form__button:hover {
+.fieldset__button:hover {
   opacity: 0.7;
 }
 
-.form__input[type="checkbox"] {
+.fieldset__input[type="checkbox"] {
   border-radius: 2px;
   height: 20px;
   width: 20px;
@@ -265,17 +264,17 @@
 
 /*
 
-.form__input_name {
+.fieldset__input_name {
 }
 
-.form__input_number_of_guests {
+.fieldset__input_number_of_guests {
 }
 
-.form__input_date {
+.fieldset__input_date {
 }
 
-.form__input_email {
+.fieldset__input_email {
 }
 
-.form__input_terms_of_use {
+.fieldset__input_terms_of_use {
 } */
