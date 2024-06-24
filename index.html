@@ -125,20 +125,20 @@
 
           <form class="reservation__form">
             <fieldset class="reservation__form reservation__form_label">
-              <label for="name" class="reservation_label">
+              <label for="name" class="reservation__label">
                 <!-- O texto da <span> deveria estar localizado a esquerda do <form> -->
-                <span class="reservation_label-text">Nome *</span>
+                <span class="reservation__label-text">Nome *</span>
                 <input
                   type="text"
                   placeholder="Nome"
-                  class="reservation_input reservation_input_name"
+                  class="reservation__input reservation__input_name"
                   id="name"
                 />
               </label>
               <br />
 
-              <label for="number_of_guests" class="reservation_label">
-                <span class="reservation_label reservation_label-text"
+              <label for="number_of_guests" class="reservation__label">
+                <span class="reservation__label reservation__label-text"
                   >Número de convidados *</span
                 >
                 <input
@@ -146,51 +146,51 @@
                   min="1"
                   max="8"
                   placeholder="1-8"
-                  class="reservation_input reservation_input_number_of_guests"
+                  class="reservation__input reservation__input_number-of-guests"
                   id="number_of_guests"
                 />
               </label>
               <br />
 
-              <label for="date" class="reservation_label">
-                <span class="reservation_label reservation_label-text"
+              <label for="date" class="reservation__label">
+                <span class="reservation__label reservation__label-text"
                   >Data e hora *</span
                 >
                 <input
                   type="datetime-local"
-                  class="reservation_input reservation_input_date"
+                  class="reservation__input reservation__input_date"
                   id="date"
                 />
               </label>
               <br />
 
-              <label for="email" class="reservation_label">
-                <span class="reservation_label reservation_label-text"
+              <label for="email" class="reservation__label">
+                <span class="reservation__label reservation__label-text"
                   >Seu e-mail *</span
                 >
                 <input
                   type="email"
                   placeholder="email@email.com"
-                  class="reservation_input reservation_input_email"
+                  class="reservation__input reservation__input_email"
                   id="email"
                 />
               </label>
               <br />
 
-              <button type="submit" class="reservation_button">
+              <button type="submit" class="reservation__button">
                 Reservar uma mesa
               </button>
               <br />
 
-              <label for="terms_of_use" class="reservation_label">
+              <label for="terms_of_use" class="reservation__label">
                 <input
                   type="checkbox"
-                  class="reservation_input reservation_input_terms_of_use"
+                  class="reservation__input reservation__input_terms-of-use"
                   id="terms_of_use"
                 />
                 <!-- Devo adicionar mais uma classe ao <span class="reservation__form__label-text"> ?-->
                 <!-- Ou devo adicionar mais um tag <span> aqui? -->
-                <span class="reservation_label reservation_label-text"
+                <span class="reservation__label reservation__label-text"
                   >Eu concordo com os termos de uso</span
                 >
               </label>
