@@ -208,7 +208,7 @@
 
 /* .reservation__form-container{} */
 
-.reservation__form__label {
+.reservation__form_label {
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -218,11 +218,11 @@
   margin-bottom: 120px;
 }
 
-.reservation__form__label-text {
+.reservation__form_label-text {
   margin-bottom: 8px;
 }
 
-.reservation__form__input {
+.reservation__form_input {
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -236,7 +236,7 @@
   padding-bottom: 32px;
 }
 
-.reservation__form__button {
+.reservation__form_button {
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -253,11 +253,11 @@
   width: 100%;
 }
 
-.reservation__form__button:hover {
+.reservation__form_button:hover {
   opacity: 0.7;
 }
 
-.reservation__form__input[type="checkbox"] {
+.reservation__form_input[type="checkbox"] {
   border-radius: 2px;
   height: 20px;
   width: 20px;
