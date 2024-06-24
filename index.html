@@ -124,25 +124,21 @@
           <h2 class="reservation__title">Reservar uma mesa</h2>
 
           <form class="reservation__form">
-            <fieldset class="reservation__form-container">
-              <label for="name" class="reservation__form_label">
+            <fieldset class="reservation__form reservation__form_label">
+              <label for="name" class="reservation_label">
                 <!-- O texto da <span> deveria estar localizado a esquerda do <form> -->
-                <span
-                  class="reservation__form_label reservation__form_label-text"
-                  >Nome *</span
-                >
+                <span class="reservation_label-text">Nome *</span>
                 <input
                   type="text"
                   placeholder="Nome"
-                  class="reservation__form_input reservation__form_input_name"
+                  class="reservation_input reservation_input_name"
                   id="name"
                 />
               </label>
               <br />
 
-              <label for="number_of_guests" class="reservation__form_label">
-                <span
-                  class="reservation__form_label reservation__form_label-text"
+              <label for="number_of_guests" class="reservation_label">
+                <span class="reservation_label reservation_label-text"
                   >Número de convidados *</span
                 >
                 <input
@@ -150,54 +146,51 @@
                   min="1"
                   max="8"
                   placeholder="1-8"
-                  class="reservation__form_input reservation__form_input_number_of_guests"
+                  class="reservation_input reservation_input_number_of_guests"
                   id="number_of_guests"
                 />
               </label>
               <br />
 
-              <label for="date" class="reservation__form_label">
-                <span
-                  class="reservation__form_label reservation__form_label-text"
+              <label for="date" class="reservation_label">
+                <span class="reservation_label reservation_label-text"
                   >Data e hora *</span
                 >
                 <input
                   type="datetime-local"
-                  class="reservation__form_input reservation__form_input_date"
+                  class="reservation_input reservation_input_date"
                   id="date"
                 />
               </label>
               <br />
 
-              <label for="email" class="reservation__form_label">
-                <span
-                  class="reservation__form_label reservation__form_label-text"
+              <label for="email" class="reservation_label">
+                <span class="reservation_label reservation_label-text"
                   >Seu e-mail *</span
                 >
                 <input
                   type="email"
                   placeholder="email@email.com"
-                  class="reservation__form_input reservation__form_input_email"
+                  class="reservation_input reservation_input_email"
                   id="email"
                 />
               </label>
               <br />
 
-              <button type="submit" class="reservation__form_button">
+              <button type="submit" class="reservation_button">
                 Reservar uma mesa
               </button>
               <br />
 
-              <label for="terms_of_use" class="reservation__form_label">
+              <label for="terms_of_use" class="reservation_label">
                 <input
                   type="checkbox"
-                  class="reservation__form_input reservation__form_input_terms_of_use"
+                  class="reservation_input reservation_input_terms_of_use"
                   id="terms_of_use"
                 />
                 <!-- Devo adicionar mais uma classe ao <span class="reservation__form__label-text"> ?-->
                 <!-- Ou devo adicionar mais um tag <span> aqui? -->
-                <span
-                  class="reservation__form_label reservation__form_label-text"
+                <span class="reservation_label reservation_label-text"
                   >Eu concordo com os termos de uso</span
                 >
               </label>
