@@ -8,6 +8,10 @@
 
 .footer__circle {
   background-color: #2f80ed;
+  border-radius: 50%;
+  z-index: -1;
+  max-width: 340px;
+  max-height: 340px;
 }
 
 .footer__logo {
