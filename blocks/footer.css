@@ -1,5 +1,6 @@
 .footer {
   background-color: #0a2850;
+  color: #fff;
 }
 
 .footer__content {
@@ -29,6 +30,8 @@
 }
 
 .footer__social-link {
+  color: #fff;
+  opacity: #c1c1c1;
 }
 
 .footer__copyright {
