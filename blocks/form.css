@@ -57,6 +57,13 @@
   opacity: 0.7;
 }
 
+.form__label-checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
 .form__input[type="checkbox"] {
   border-radius: 2px;
   height: 20px;

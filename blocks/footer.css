@@ -61,6 +61,9 @@
   font-size: 16px;
   line-height: 20px;
   padding: 0 0 16px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
 }
 
 .footer__social-icon {
@@ -70,7 +73,6 @@
 
 .footer__social-link {
   text-decoration: none;
-  gap: 10px;
   color: #c1c1c1;
 }
 
@@ -85,4 +87,5 @@
   align-items: flex-end;
   padding-left: 80px;
   padding-bottom: 60px;
+  margin: 0;
 }
