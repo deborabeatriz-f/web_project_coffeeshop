@@ -3,6 +3,11 @@
   margin-bottom: 120px;
 }
 
+.form__container {
+  border: none;
+  text-align: left;
+}
+
 .form__label {
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
