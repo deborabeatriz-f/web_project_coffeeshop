@@ -11,6 +11,6 @@ The technologies used were HTML and CSS applying in them BEM methodology.
 
 ### Improvement Plan:
 
-- Make the <nav> section fixed, so the user can easily navigate through the website sections even when scrolling.
+- Make the nav section of html fixed, so the user can easily navigate through the website sections even when scrolling.
 
 - Add a menu section with all the coffees and goodies that the coffee shop offers.
